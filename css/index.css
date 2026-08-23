@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'myFont-regular';
-    src: url('../assets/fonts/IosevkaNerdFont-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
     font-weight: 400;
     /* or 'normal' for normal weight fonts */
     font-style: normal;
@@ -34,7 +34,7 @@ body {
 }
 
 .child {
-    width: 600px;
+    width: 650px;
     margin: 0 auto;
     padding: 0px 20px;
     /* add red borders here to test */
@@ -91,7 +91,7 @@ main a:active {
     text-decoration: underline;
 }
 
-#experience .element {
+.element {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -117,4 +117,8 @@ main a:active {
 #skills .cell img {
     height: 50px;
     margin: 5px;
+}
+
+li {
+    padding-bottom: 5px;
 }
