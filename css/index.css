@@ -35,7 +35,8 @@ body {
 }
 
 .child {
-    width: 600px;
+    max-width: 600px;
+    min-width: 550px;
     margin: 0 auto;
     padding: 0px 20px;
     /* add red borders here to test */
