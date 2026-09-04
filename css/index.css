@@ -28,6 +28,7 @@ html {
 
 body {
     font-family: 'myFont-regular';
+    text-align: justify;
 }
 
 .parent {
@@ -35,8 +36,8 @@ body {
 }
 
 .child {
-    max-width: 600px;
-    min-width: 500px;
+    max-width: 550px;
+    min-width: 300px;
     margin: 0 auto;
     padding: 0px 20px;
     /* add red borders here to test */
@@ -73,10 +74,6 @@ nav .right .cell a:hover {
 nav .right .cell a:active {
     text-decoration: underline;
     color: var(--link-active-color);
-}
-
-main {
-    text-align: justify;
 }
 
 main a {
@@ -130,12 +127,18 @@ li {
     nav {
         flex-direction: column;
         align-items: flex-start;
-        gap: 12px;
+        gap: 10px;
     }
 
     nav .right {
-        flex-direction: column;
-        gap: 5px;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    nav .right .cell a {
+        padding: 15px;
+        padding-left: 0;
+        margin: 0;
     }
 
     .element {
